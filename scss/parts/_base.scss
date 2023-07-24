@@ -6,8 +6,10 @@
 }
 
 .btn {
+    $height: 56px;
     min-width: 213px;
-    height: 56px;
+    height: $height;
+    line-height: $height;
     border-radius: 8px;
     background: $primaryColor;
     color: #fff;
