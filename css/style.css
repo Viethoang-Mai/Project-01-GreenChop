@@ -29,7 +29,6 @@ img {
 a {
   text-decoration: none;
   color: #2c2c2c;
-  display: inline-block;
 }
 
 button {
@@ -254,11 +253,12 @@ table {
 .header .header-menu {
   --column-space: 0;
   margin-right: 27px;
+  margin-top: 18px;
 }
 .header .header-menu ul {
-  margin-top: 18px;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   margin-left: auto;
 }
 .header .header-menu ul li a {
@@ -805,6 +805,9 @@ table {
 }
 .product .products-content .item:nth-child(3n-1) .item-img {
   background: #c5ffa8;
+}
+.product .products-content .item .btn {
+  display: inline-block;
 }
 .product .heading {
   margin-top: 126px;

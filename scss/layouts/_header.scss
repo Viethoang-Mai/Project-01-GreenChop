@@ -25,10 +25,11 @@
     .header-menu {
         --column-space: 0;
         margin-right: 27px;
+        margin-top: 18px;
         ul {
-            margin-top: 18px;
             display: flex;
             justify-content: flex-end;
+            align-items: center;
             margin-left: auto;
             li {
                 a {
