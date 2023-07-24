@@ -19,3 +19,16 @@
         background: $secondColor;
     }
 }
+$breakpoints: (
+    xxl: 1399,
+    xl: 1199,
+    lg: 991,
+    md: 767,
+    sm: 575,
+);
+
+@each $name, $breakpoint in $breakpoints {
+    @media screen and (max-width:#{$breakpoint}px) {
+        @include display($name);
+    }
+}
