@@ -4,14 +4,10 @@
         text-align: center;
         .heading {
             max-width: 670px;
-            font-size: 3.8rem;
-            font-weight: 800;
-            line-height: 1.3;
         }
         .desc {
             max-width: 772px;
             margin-top: 30px;
-            line-height: 1.53;
         }
     }
     .stats-body {
@@ -49,6 +45,7 @@
             }
         }
         .item {
+            border-radius: 4px;
             background: #fff;
             width: 353px;
             height: 405px;
