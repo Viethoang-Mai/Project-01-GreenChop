@@ -996,6 +996,9 @@ table {
 }
 .news .news-link {
   border-radius: 8px;
+  background: #fff;
+  color: #2c2c2c;
+  border: 1px solid #46b20f;
   font-size: 2rem;
   font-weight: 700;
   min-width: 184px;
