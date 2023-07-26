@@ -180,6 +180,13 @@ table {
   margin: 0 auto;
 }
 
+.header-sticky {
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+  background: #fff;
+}
+
 .btn {
   display: inline-block;
   min-width: 213px;
