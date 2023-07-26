@@ -19,6 +19,7 @@ body {
   color: #2c2c2c;
   line-height: 1.2;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 }
 
 img {
@@ -35,6 +36,15 @@ button {
   border: none;
   outline: none;
   font-family: inherit;
+}
+
+input,
+input::placeholder,
+section,
+label,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
 }
 
 div,
@@ -1229,7 +1239,7 @@ table {
 }
 @media screen and (max-width: 767px) {
   .services .service-inner {
-    gap: 100px 36px;
+    gap: 70px 36px;
   }
   .services .item-img {
     width: 50px;
@@ -1250,18 +1260,98 @@ table {
     margin-top: 50px;
   }
   .services .service-inner {
-    gap: 100px 36px;
+    gap: 40px 36px;
   }
   .services .item-img {
     width: 67px;
     height: 67px;
   }
   .services .item {
+    border-radius: 8px;
+    background: rgba(255, 196, 165, 0.2666666667);
+    padding: 20px 10px;
     width: 360px;
-    column-gap: 40px;
+    height: 100%;
+    column-gap: 30px;
   }
   .services .heading {
     font-size: 2.2rem;
+  }
+}
+.form-contact {
+  margin-top: 209px;
+  --container-padding: 0px;
+}
+.form-contact .row {
+  justify-content: space-between;
+}
+.form-contact .form-contact-image {
+  width: 583px;
+  height: 598px;
+}
+.form-contact .form-contact-image img {
+  width: 100%;
+  object-fit: cover;
+}
+.form-contact .form-content {
+  margin: 67px 0 0 10px;
+}
+.form-contact .form-content .heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.33;
+  margin-bottom: 32px;
+}
+.form-contact .form-content input,
+.form-contact .form-content textarea {
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #a3a3a3;
+  width: 100%;
+  font-size: 1.8rem;
+}
+.form-contact .form-content .group-item {
+  display: flex;
+  column-gap: 21px;
+  margin: 28px 0;
+}
+.form-contact .form-content .button {
+  margin-top: 23px;
+  text-align: right;
+}
+.form-contact .form-content .form-btn {
+  min-width: 154px;
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 1599px) {
+  .container {
+    --container-padding: 30px;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .form-contact .form-contact-image {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .form-contact {
+    margin-top: 180px;
+  }
+  .form-contact .form-contact-image {
+    width: 115%;
+  }
+  .form-contact .form-content .group-item {
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .form-contact {
+    margin-top: 100px;
+  }
+  .form-contact .form-content input,
+  .form-contact .form-content textarea {
+    font-size: 1.6rem;
   }
 }
 

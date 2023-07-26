@@ -17,6 +17,7 @@ body {
     color: $textColor;
     line-height: 1.2;
     font-family: $fontFamily;
+    overflow-x: hidden;
 }
 img {
     max-width: 100%;
@@ -30,6 +31,14 @@ button {
     border: none;
     outline: none;
     font-family: inherit;
+}
+input,
+input::placeholder,
+section,
+label,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
 }
 
 div,
