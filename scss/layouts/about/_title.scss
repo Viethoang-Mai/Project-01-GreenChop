@@ -1,0 +1,40 @@
+.title {
+    .container {
+        --container-padding: 0px;
+    }
+    background: #f2ffec;
+    height: 200px;
+    line-height: 200px;
+    .heading {
+        font-size: 5.2rem;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 1599px) {
+    .title {
+        .container {
+            --container-padding: 30px;
+        }
+    }
+}
+@media screen and (max-width: 1199px) {
+    .title {
+        height: 150px;
+
+        line-height: 150px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .title {
+        .heading {
+            font-size: 4rem;
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    .title {
+        .heading {
+            font-size: 3.5rem;
+        }
+    }
+}

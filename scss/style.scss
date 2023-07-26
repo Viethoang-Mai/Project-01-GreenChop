@@ -3,14 +3,17 @@
 @import "parts/mixins";
 @import "parts/base";
 
-// import layout
-@import "layouts/header";
-// @import "layouts/footer";
-@import "layouts/hero";
-@import "layouts/stats";
-@import "layouts/products";
-@import "layouts/news";
-@import "layouts/qualities";
-@import "layouts/services";
-@import "layouts/form";
-@import "layouts/footer";
+// import layout-home
+@import "layouts/home/header";
+@import "layouts/home/hero";
+@import "layouts/home/stats";
+@import "layouts/home/products";
+@import "layouts/home/news";
+@import "layouts/home/qualities";
+@import "layouts/home/services";
+@import "layouts/home/form";
+@import "layouts/home/footer";
+
+// import layout-about
+@import "layouts/about/header";
+@import "layouts/about/title";
