@@ -891,7 +891,7 @@ table {
 }
 @media screen and (max-width: 767px) {
   .product .products-content {
-    column-gap: 60px;
+    gap: 0 60px;
   }
   .product .products-content .item .item-img {
     width: 170px;
@@ -915,14 +915,9 @@ table {
   }
 }
 @media screen and (max-width: 575px) {
-  .product .products-content {
-    column-gap: 60px;
-    row-gap: 50px;
-  }
   .product .products-content .item .item-img {
     width: 150px;
     height: 150px;
-    background: #fff !important;
   }
   .product .products-content .item .heading {
     min-width: 190px;
