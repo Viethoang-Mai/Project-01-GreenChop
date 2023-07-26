@@ -1482,37 +1482,37 @@ table {
     gap: 20px;
   }
 }
-.title {
+.about-title {
   background: #f2ffec;
   height: 200px;
   line-height: 200px;
 }
-.title .container {
+.about-title .container {
   --container-padding: 0px;
 }
-.title .heading {
+.about-title .heading {
   font-size: 5.2rem;
   font-weight: 700;
 }
 
 @media screen and (max-width: 1599px) {
-  .title .container {
+  .about-title .container {
     --container-padding: 30px;
   }
 }
 @media screen and (max-width: 1199px) {
-  .title {
+  .about-title {
     height: 150px;
     line-height: 150px;
   }
 }
 @media screen and (max-width: 992px) {
-  .title .heading {
+  .about-title .heading {
     font-size: 4rem;
   }
 }
 @media screen and (max-width: 575px) {
-  .title .heading {
+  .about-title .heading {
     font-size: 3.5rem;
   }
 }
