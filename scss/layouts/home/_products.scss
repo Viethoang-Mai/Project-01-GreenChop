@@ -129,12 +129,20 @@
 }
 @media screen and (max-width: 767px) {
     .product {
+        .product-header {
+            .heading-product {
+                margin-bottom: -20px;
+            }
+            .heading-product {
+                font-size: 3.4rem;
+            }
+        }
         .products-content {
             gap: 0 60px;
             .item {
                 .item-img {
-                    width: 170px;
-                    height: 170px;
+                    width: 150px;
+                    height: 100px;
                     background: #fff !important;
                 }
                 .heading {
@@ -158,12 +166,13 @@
 }
 @media screen and (max-width: 575px) {
     .product {
+        .product-header {
+            .heading-product {
+                margin-bottom: 0px;
+            }
+        }
         .products-content {
             .item {
-                .item-img {
-                    width: 150px;
-                    height: 150px;
-                }
                 .heading {
                     min-width: 190px;
                     font-size: 2rem;
