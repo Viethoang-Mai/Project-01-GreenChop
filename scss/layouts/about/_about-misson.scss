@@ -36,6 +36,7 @@
 }
 @media screen and (max-width: 991px) {
     .about-mission {
+        margin-bottom: -200px;
         .about-mission-image {
             width: 59%;
             margin-right: 35px;
@@ -47,6 +48,8 @@
 }
 @media screen and (max-width: 767px) {
     .about-mission {
+        margin-bottom: 150px;
+
         .about-mission-inner {
             position: relative;
         }
@@ -71,7 +74,7 @@
 }
 @media screen and (max-width: 575px) {
     .about-mission {
-        margin-top: 50px;
+        margin: 60px 0 -50px 0;
         .about-mission-image {
             width: 50%;
             top: 50px;
