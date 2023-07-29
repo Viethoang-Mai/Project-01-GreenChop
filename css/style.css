@@ -720,8 +720,8 @@ table {
     --column-space: 20px;
   }
   .stats .stats-body .col-4::before {
-    width: 140px !important;
-    height: 140px !important;
+    width: 120px !important;
+    height: 120px !important;
   }
   .stats .stats-body .item {
     width: 210px;
@@ -1737,6 +1737,81 @@ table {
     text-align: justify;
     margin-top: 40px;
     font-size: 1.5rem;
+  }
+}
+.about-mission {
+  margin-top: 120px;
+}
+.about-mission .container {
+  --container-padding: 0px;
+}
+.about-mission .about-mission-inner {
+  display: flex;
+}
+.about-mission .about-mission-image {
+  width: 703px;
+  height: 598px;
+  margin-right: 110px;
+}
+.about-mission .about-mission-info {
+  margin-top: 82px;
+}
+.about-mission .about-mission-info .desc {
+  margin-top: 32px;
+  max-width: 492px;
+}
+
+@media screen and (max-width: 1599px) {
+  .about-mission .container {
+    --container-padding: 30px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .about-mission .about-mission-image {
+    margin-right: 80px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .about-mission .about-mission-image {
+    width: 59%;
+    margin-right: 35px;
+  }
+  .about-mission .about-mission-info {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about-mission .about-mission-inner {
+    position: relative;
+  }
+  .about-mission .about-mission-image {
+    position: absolute;
+    width: 60%;
+    z-index: -1;
+    right: -25px;
+    opacity: 0.5;
+  }
+  .about-mission .about-mission-info {
+    margin-top: 0;
+  }
+  .about-mission .about-mission-info .heading {
+    font-size: 3.4rem;
+  }
+  .about-mission .about-mission-info .desc {
+    max-width: 100%;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .about-mission {
+    margin-top: 50px;
+  }
+  .about-mission .about-mission-image {
+    width: 50%;
+    top: 50px;
+  }
+  .about-mission .about-mission-info .heading {
+    font-size: 3.8rem;
   }
 }
 
