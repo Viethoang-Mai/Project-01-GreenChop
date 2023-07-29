@@ -81,9 +81,10 @@
             flex-wrap: wrap;
             gap: 20px 0;
             justify-content: center;
+            margin-bottom: 50px;
 
             .desc {
-                max-width: auto;
+                max-width: 100% !important;
                 font-size: 1.4rem;
                 background: #f2ffec;
                 padding: 20px;

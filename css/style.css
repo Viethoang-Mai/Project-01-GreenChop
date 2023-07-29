@@ -14,6 +14,7 @@ html {
 }
 
 body {
+  height: 10000px;
   font-size: 1.6rem;
   color: #2c2c2c;
   line-height: 1.2;
@@ -183,7 +184,7 @@ table {
 .header-sticky {
   position: sticky;
   top: -10px;
-  z-index: 1;
+  z-index: 2;
   background: #fff;
 }
 
@@ -1609,9 +1610,10 @@ table {
     flex-wrap: wrap;
     gap: 20px 0;
     justify-content: center;
+    margin-bottom: 50px;
   }
   .main-about .group-item .desc {
-    max-width: auto;
+    max-width: 100% !important;
     font-size: 1.4rem;
     background: #f2ffec;
     padding: 20px;
@@ -1623,7 +1625,7 @@ table {
   position: relative;
   text-align: center;
   padding: 84px 0 120px;
-  margin-top: 37px;
+  margin-top: 116px;
   background: url("../image/bgr-img-about.png") center;
 }
 .main-product-about::after {
@@ -1657,6 +1659,85 @@ table {
   position: relative;
   z-index: 1;
   color: #fff;
+}
+
+@media screen and (max-width: 1399px) {
+  .main-product-about {
+    height: 420px;
+  }
+  .main-product-about .desc {
+    font-size: 1.7rem;
+  }
+  .main-product-about .desc img {
+    width: 90px;
+  }
+  .main-product-about .desc img:first-of-type {
+    top: -55px;
+    left: -90px;
+  }
+  .main-product-about .desc img:last-of-type {
+    right: -85px;
+    top: 80px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .main-product-about {
+    height: 400px;
+  }
+  .main-product-about .desc {
+    font-size: 1.6rem;
+  }
+  .main-product-about .desc img {
+    width: 60px;
+  }
+  .main-product-about .desc img:first-of-type {
+    left: 0px;
+  }
+  .main-product-about .desc img:last-of-type {
+    right: 0px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main-product-about {
+    height: 350px;
+  }
+  .main-product-about .desc img {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-product-about {
+    padding-top: 60px;
+    height: 400px;
+    background: none;
+  }
+  .main-product-about::after {
+    background: url("../image/grc.png") no-repeat center/cover;
+    opacity: 0.4;
+  }
+  .main-product-about .desc,
+  .main-product-about .heading {
+    color: initial;
+  }
+  .main-product-about .desc {
+    margin-top: 40px;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .main-product-about {
+    height: auto;
+    padding: 20px 0;
+  }
+  .main-product-about .desc,
+  .main-product-about .heading {
+    color: initial;
+  }
+  .main-product-about .desc {
+    text-align: justify;
+    margin-top: 40px;
+    font-size: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
