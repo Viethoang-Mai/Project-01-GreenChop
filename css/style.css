@@ -1961,10 +1961,46 @@ table {
   line-height: 1.21;
   opacity: 0.2;
 }
+.product-page_instruction .instruction-end {
+  margin-top: 124px;
+}
+.product-page_instruction .instruction-end .container {
+  width: 100%;
+}
+.product-page_instruction .instruction-end .content {
+  display: flex;
+  column-gap: 54px;
+  justify-content: flex-end;
+}
+.product-page_instruction .instruction-end .content .desc {
+  padding: 109px 62px 56px 75px;
+  border: 10px solid;
+  border-radius: 0px 10px 10px 0px;
+  border-color: transparent transparent transparent #46b20f;
+  font-size: 2.4rem;
+  line-height: 1.54;
+  width: 784px;
+  height: 420px;
+  box-shadow: -7px 10px 87px 0px rgba(54, 54, 54, 0.12);
+}
+.product-page_instruction .instruction-end .content .image {
+  margin-top: 43px;
+  width: 706px;
+}
 
+@media screen and (max-width: 1599px) {
+  .instruction-end .content {
+    padding-left: 150px;
+  }
+}
 @media screen and (max-width: 1399px) {
   .product-page_instruction .instruction-row {
     column-gap: 155px;
+  }
+  .product-page_instruction .instruction-end .content .desc {
+    font-size: 2.2rem;
+    padding: 79px 32px 26px 45px;
+    height: 85%;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -1984,6 +2020,10 @@ table {
   .product-page_instruction .instruction-row .item-content::after {
     font-size: 8rem;
   }
+  .product-page_instruction .instruction-end .content .desc {
+    padding: 59px 32px 26px 45px;
+    font-size: 1.8rem;
+  }
 }
 @media screen and (max-width: 991px) {
   .product-page_instruction {
@@ -2000,10 +2040,28 @@ table {
     left: -5px;
     font-size: 7rem;
   }
+  .product-page_instruction .instruction-end {
+    padding-left: 50px;
+  }
+  .product-page_instruction .instruction-end .content {
+    justify-content: center;
+    padding-left: 0px;
+  }
+  .product-page_instruction .instruction-end .content .desc {
+    padding: 39px;
+    font-size: 1.6rem;
+    width: 100%;
+  }
+  .product-page_instruction .instruction-end .content .image {
+    display: none;
+  }
 }
 @media screen and (max-width: 767px) {
   .product-page_instruction .instruction-row {
     gap: 100px;
+  }
+  .product-page_instruction .instruction-end {
+    justify-content: flex-end;
   }
 }
 @media screen and (max-width: 575px) {
@@ -2020,6 +2078,9 @@ table {
   .product-page_instruction .instruction-row .item-content::after {
     font-size: 1.4rem;
     font-size: 8rem;
+  }
+  .product-page_instruction .instruction-end {
+    margin-top: 50px;
   }
 }
 

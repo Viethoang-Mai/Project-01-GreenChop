@@ -46,12 +46,56 @@
             }
         }
     }
+    .instruction-end {
+        margin-top: 124px;
+        .container {
+            width: 100%;
+        }
+
+        .content {
+            display: flex;
+            column-gap: 54px;
+            justify-content: flex-end;
+            .desc {
+                padding: 109px 62px 56px 75px;
+                border: 10px solid;
+                border-radius: 0px 10px 10px 0px;
+                border-color: transparent transparent transparent #46b20f;
+                font-size: 2.4rem;
+                line-height: 1.54;
+                width: 784px;
+                height: 420px;
+                box-shadow: -7px 10px 87px 0px rgba(54, 54, 54, 0.12);
+            }
+            .image {
+                margin-top: 43px;
+                width: 706px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1599px) {
+    .instruction-end {
+        .content {
+            padding-left: 150px;
+        }
+    }
 }
 
 @media screen and (max-width: 1399px) {
     .product-page_instruction {
         .instruction-row {
             column-gap: 155px;
+        }
+        .instruction-end {
+            .content {
+                .desc {
+                    font-size: 2.2rem;
+                    padding: 79px 32px 26px 45px;
+                    height: 85%;
+                }
+            }
         }
     }
 }
@@ -70,6 +114,14 @@
                 font-size: 1.4rem;
                 &::after {
                     font-size: 8rem;
+                }
+            }
+        }
+        .instruction-end {
+            .content {
+                .desc {
+                    padding: 59px 32px 26px 45px;
+                    font-size: 1.8rem;
                 }
             }
         }
@@ -94,12 +146,30 @@
                 }
             }
         }
+        .instruction-end {
+            padding-left: 50px;
+            .content {
+                justify-content: center;
+                padding-left: 0px;
+                .desc {
+                    padding: 39px;
+                    font-size: 1.6rem;
+                    width: 100%;
+                }
+                .image {
+                    display: none;
+                }
+            }
+        }
     }
 }
 @media screen and (max-width: 767px) {
     .product-page_instruction {
         .instruction-row {
             gap: 100px;
+        }
+        .instruction-end {
+            justify-content: flex-end;
         }
     }
 }
@@ -122,6 +192,9 @@
                     font-size: 8rem;
                 }
             }
+        }
+        .instruction-end {
+            margin-top: 50px;
         }
     }
 }
