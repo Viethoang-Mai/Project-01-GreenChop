@@ -1,5 +1,5 @@
 .product-page_protection {
-    margin-top: 153px;
+    margin: 153px 0 260px;
     .container {
     }
     .section-heading {
@@ -144,6 +144,7 @@
 }
 @media screen and (max-width: 767px) {
     .product-page_protection {
+        margin-bottom: 180px;
         .section-heading {
             font-size: 3.4rem;
             margin: 0;
