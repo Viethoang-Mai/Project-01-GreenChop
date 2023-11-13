@@ -56,19 +56,6 @@
         margin-top: 121px;
         text-align: center;
     }
-    .news-link {
-        border-radius: 8px;
-        background: #fff;
-        color: $textColor;
-        border: 1px solid $primaryColor;
-        font-size: 2rem;
-        font-weight: 700;
-        min-width: 184px;
-        img {
-            position: relative;
-            top: 7px;
-        }
-    }
 }
 @media screen and (max-width: 1399px) {
     .news {

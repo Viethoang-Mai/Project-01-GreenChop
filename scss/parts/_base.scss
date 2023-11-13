@@ -28,6 +28,21 @@
         background: $secondColor;
     }
 }
+
+.news-link {
+    border-radius: 8px;
+    background: #fff;
+    color: $textColor;
+    border: 1px solid $primaryColor;
+    font-size: 2rem;
+    font-weight: 700;
+    min-width: 184px;
+    text-align: center;
+    img {
+        position: relative;
+        top: 7px;
+    }
+}
 $breakpoints: (
     xxl: 1399,
     xl: 1199,
