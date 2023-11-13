@@ -28,6 +28,44 @@
         background: $secondColor;
     }
 }
+.news-body {
+    --column-space: 28px;
+    margin-top: 60px;
+    .article {
+        .art-img {
+            img {
+                object-fit: cover;
+                display: block;
+            }
+        }
+
+        border-radius: 8px;
+    }
+    .art-row {
+        font-size: 1.8rem;
+
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+        .title a {
+            color: $primaryColor;
+        }
+    }
+    .art-row-date {
+        display: flex;
+        column-gap: 12px;
+    }
+    .news-body-heading {
+        margin: 19px 0;
+        font-size: 2.4rem;
+        font-weight: 600;
+        max-width: 475px;
+        line-height: 1.33;
+    }
+    .news-body-desc {
+        line-height: 1.53;
+    }
+}
 
 .news-link {
     border-radius: 8px;
@@ -43,6 +81,7 @@
         top: 7px;
     }
 }
+
 $breakpoints: (
     xxl: 1399,
     xl: 1199,
